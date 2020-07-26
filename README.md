@@ -486,8 +486,6 @@ https://www.tinkercad.com/things/aOj9GS8d6qr-brilliant-crift-gaaris/editel?share
 
 4.	El Circuito Contador funciona de manera ASCENDENTE de modo que empieza en “0” y termina en “9” el conteo se proyecta en un display de 7 segmentos, el tiempo que se demora en cambiar de un dígito a otro se lo controla con un POTENCIÓMETRO.
 
-Mayor resistencia en el potenciómetro .......  Mayor tiempo de espera 
-
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2043.jpg)
@@ -495,6 +493,10 @@ Mayor resistencia en el potenciómetro .......  Mayor tiempo de espera
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2045.jpg)
+
+<br>
+
+Mayor resistencia en el potenciómetro .......  Mayor tiempo de espera 
 
 <br>
 
