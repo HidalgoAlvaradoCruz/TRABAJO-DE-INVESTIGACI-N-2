@@ -1,4 +1,4 @@
-##  Circuito de prueba para un contador de 4 bits con un display para visualizar la salida empleando los integrados 7493 y 4511 mediante el Software de Simulación Tinkercad
+##  Circuito de prueba para un contador de 4 bits con un display para visualizar la señal de salida empleando los integrados 7493 y 4511 mediante el Software de Simulación Tinkercad
 
 <br>
 
@@ -42,13 +42,19 @@ Implementar en Thinkercad un circuito de prueba para un contador de 4 bits.
 
 <br>
 
-En 2012, Lee Ai Lim, Azrul Ghazali, Sarah Chan Tji Yan y Chau Chien Fat del Centro de Micro y Nano Ingeniería, Facultad de Ingeniería, Universidad Tenaga Nasional Kajang, Selangor, Malasia realizaron un estudio para sustituir los transistores CMOS. Por lo tanto, se debe descubrir un dispositivo alternativo para mejorar continuamente el desarrollo de dispositivos electrónicos. El autómata celular de puntos cuánticos (QCA) es un dispositivo potencial que se puede utilizar para implementar circuitos digitales. se utilizan para construir circuitos lógicos más complejos. En la arquitectura QCA se presentan varios diseños de circuitos secuenciales, como latch D cerrado, latch RS, contador de 2 bits y contador de 4 bits con registro de desplazamiento de 4 bits. Estos diseños se capturan y simulan utilizando un software de diseño llamado QCADesigner. (Lee Ai Lim, Ghazali, 2012, p.1) [1].
+En 2012, Lee Ai Lim, Azrul Ghazali, Sarah Chan Tji Yan y Chau Chien Fat del Centro de Micro y Nano Ingeniería, Facultad de Ingeniería, Universidad Tenaga Nasional Kajang, Selangor, Malasia realizaron un estudio para sustituir los transistores CMOS. Por lo tanto, se debe descubrir un dispositivo alternativo para mejorar continuamente el desarrollo de dispositivos electrónicos. El autómata celular de puntos cuánticos (QCA) es un dispositivo potencial que se puede utilizar para implementar circuitos digitales. se utilizan para construir circuitos lógicos más complejos. En la arquitectura QCA se presentan varios diseños de circuitos secuenciales, como latch D cerrado, latch RS, contador de 2 bits y contador de 4 bits con registro de desplazamiento de 4 bits. Estos diseños se capturan y simulan utilizando un software de diseño llamado QCADesigner. (Lee Ai Lim, Ghazali, 2012, p.1) [5].
 
-Ruanqianqian Huang y Franklyn Turbak del Wellesley College, Department of Computer Science en 2019 implementaron un diseño para la conversión bidireccional entre bloques y texto para App Inventor mediante fragmentos de código visual que evitan errores semánticos sintácticos y estáticos y reducen la carga cognitiva para este fin diseñaron un sistema de modo dual para MIT App Inventor que admite representaciones textuales para bloques, espacios de trabajo, pantallas y proyectos completos que permiten la conversión bidireccional entre bloques isomórficos y representaciones de texto, permitiendo que individuos de varios niveles de experiencia en programación se relacionen con la interfaz (R. Huang,F. Turbak,2019)[2].
 
-Lance A. Allison y Mohammad Muztaba Fuad del Departamento de Cienecias de la Computación de la Universidad Estatal de Salem en 2016, basaron su estudio en la comunicación entre aplicaciones de Android desarrolladas en App-Inventor y Android  Studio  para proporcionar diferentes funcionalidades específicas de cada plataforma al dispositivo, en Android pueden desarrollarse usando App Inventor 2 (AI) del MIT o usando IDEs como Android Studio (AS) con la ayuda del SDK de Android, la versión del App Inventor original de Google, que es un entorno de desarrollo basado en un navegador web para una forma más sencilla de desarrollar aplicaciones de Android. Con poco o ningún conocimiento de programación, uno puede desarrollar e implementar una aplicación de Android usando AI,  la mayoría de las aplicaciones desarrolladas en AI tienen que seguir una plantilla de diseño específica (Lance,2006,p.1) [3]. 
+Rupali Singh y Manoj Kumar Pandey de la SRM University en la India realizaron un estudio enfocado principalmente en el bajo consumo de energía como problema vital para los circuitos digitales en la era tecnológica actual. Su trabajo emplea el concepto de la lógica reversible la cual juega un papel importante en el diseño de circuitos digitales de baja potencia. Se han realizado muchas investigaciones sobre circuitos secuenciales reversibles. En este artículo, el autor presenta el diseño de contadores digitales asíncronos y síncronos utilizando una nueva puerta reversible. Este diseño tiene la intención de optimizar el contador en términos de número de puertas reversibles, retrasos y salidas de basura y, por lo tanto, la complejidad del circuito se reduce, este diseño optimizado fortalecerá significativamente el rendimiento de los contadores secuenciales en relación con el tamaño y la utilización de energía.(Singh, R. y Pandey, MK, 2016, p.1) [6].
 
-Para el trabajo de investigación presente, se utilizó el entorno de desarrollo de software MIT App Inventor dirigido a la Conversión de un "NÚMERO DECIMAL A CÓDIGO BCD" (Munasinghe,2019,p.1), el entorno de programación para el aplicativo se hizo sobre la base de MIT App Inventor (Lance,2006,p.1). El sistema tiene la capacidad de proyectar un número decimal de salida  en la pantalla del dispositivo android simulando la proyección de un display de 7 segmentos (R. Huang,F. Turbak,2019).
+
+En 2020, K. Gavaskar, D. Malathi, R. Dhivya, R. Dimple Dayana e I.Dharun diseñaron un contador simultáneo de 4 bits de bajo consumo utilizando circuitos de conmutación digital para aplicaciones de conteo de bajo rango, para minimizar el consumo de energía, el área del chip y mejorar la vida útil de la batería y el rendimiento del sistema, se ha diseñado el circuito VLSI de baja potencia. El diseño de escala o contador se utiliza como elemento clave para aumentar o disminuir los valores de un operador en función de su estado anterior. Durante el proceso de conteo se puede medir la frecuencia y el tiempo.  La técnica SVL suprime la potencia debido a la corriente de fuga y también utiliza menos transistores, por lo que la complejidad del sistema también se reduce. La metodología propuesta revela caminos prometedores para artículos electrónicos modernos de baja potencia. (Gavaskar, K., Malathi, D., 2020, p.1) [7].
+
+
+En 2018, Paul, B., Paul, C., Varghese, A., P, S., Shajoo, S. y Kurian, N., diseñaron un alimentador para ancianos realizando la simulación del circuito de motor en AUTODESK TINKERCAD, el diseño del circuito consiste en un brazo motorizado para recoger alimentos. El mecanismo tiene motores fijos en el extremo del brazo para obtener un movimiento vertical y giratorio para recoger y alimentar los alimentos. Un servomotor accionado por un botón impulsará la acción de extracción. El funcionamiento del Circuito y del Programa ha sido simulado en AUTODESK TINKERCAD. (Paul, B., Paul, C., Varghese, A., 2018, p.1) [8].
+
+
+Para el presente trabajo de investigación, se utilizó el entorno de Simulación AUTODESK TINKERCAD dirigido al diseño de un Circuito de prueba para un contador de 4 bits con un display para visualizar la salida empleando los integrados 7493 y 4511 (Paul, B., Paul, C., Varghese, A., 2018, p.1), utilizando el concepto fundamental de circuitos secuenciales para un contador de 4 bits (Gavaskar, K., Malathi, D., 2020, p.1). El sistema tiene la capacidad realizar un conteo y proyectar un número decimal a la salida de un display de 7 segmentos (Lee Ai Lim, Ghazali, 2012, p.1).
 
 <br>
 
@@ -351,7 +357,13 @@ Tener un computador con todas las actualizaciones necesarias, como también nues
 
 El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le da el atributo de público y se comparte el enlace que se genera, dicho enlace será la única forma en la que se pueda acceder y editar el diseño del circuito.
 
+<br>
+
+<br>
+
 **10. APORTACIONES**
+
+<br>
 
 Implementación en físico del circuito contador
 
@@ -361,6 +373,11 @@ Implementación en físico del circuito contador
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img15.jpeg)
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img16.jpeg)
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img17.jpeg)
+
+<br>
+
+<br>
+
 **11. CONCLUSIONES**
 
 <br>
@@ -379,6 +396,7 @@ En conclusión:
 
 **12. RECOMENDACIONES**
 
+<br>
 
 •	Al momento de encender el circuto verificar que se este alimentando correctamente es decir revisar la polarización ya que si se invierte la polaridad se pueden dañar los circutios integrados.
 
@@ -389,6 +407,9 @@ En conclusión:
 •
 
 
+<br>
+
+<br>
 
 **13. CRONOGRAMA**
 
@@ -412,11 +433,34 @@ contenido....
 
 [5] Lee Ai Lim, Ghazali, A., Yan, SCT y Chau Chien Fat. (2012) Diseño de circuito secuencial utilizando autómatas celulares de punto cuántico (QCA). 2012 Conferencia Internacional IEEE sobre Circuitos y Sistemas (ICCAS). doi: 10.1109 / iccircuitsandsystems.2012.6408320 
 
+[6] Singh, R. y Pandey, MK (2016). Diseño y optimización de contadores secuenciales utilizando una nueva puerta reversible. 2016 Conferencia Internacional de Computación, Comunicación y Automatización (ICCCA). doi: 10.1109 / ccaa.2016.7813936 
+
+[7] Gavaskar, K., Malathi, D., Dhivya, R., Dayana, RD y Dharun, I. (2020). Diseño de bajo consumo de contador simultáneo de 4 bits utilizando circuitos de conmutación digital para aplicaciones de conteo de bajo rango. 2020 Quinta Conferencia Internacional sobre Dispositivos, Circuitos y Sistemas (ICDCS). doi: 10.1109 / icdcs48716.2020.243607 
+
+[8] Paul, B., Paul, C., Varghese, A., P, S., Shajoo, S. y Kurian, N. (2018). Diseño de un alimentador de energía para ancianos y simulación de circuito de motor desarrollado con AUTODESK TINKERCAD. Conferencia internacional de 2018 sobre circuitos y sistemas en tecnología digital empresarial (ICCSDET). doi: 10.1109 / iccsdet.2018.8821057 
+
+
+<br>
+
+<br>
+
 **15. ANEXOS**
 
+<br>
 
 **15.1 MANUAL DE USUARIO**
 
+<br>
+
+
+contenido......
+
+
+
+
+<br>
+
+<br>
 
 **15.2 HOJAS TÉCNICAS**
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img18.jpeg)
