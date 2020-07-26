@@ -44,15 +44,19 @@ Implementar en Thinkercad un circuito de prueba para un contador de 4 bits.
 
 En 2012, Lee Ai Lim, Azrul Ghazali, Sarah Chan Tji Yan y Chau Chien Fat del Centro de Micro y Nano Ingeniería, Facultad de Ingeniería, Universidad Tenaga Nasional Kajang, Selangor, Malasia realizaron un estudio para sustituir los transistores CMOS. Por lo tanto, se debe descubrir un dispositivo alternativo para mejorar continuamente el desarrollo de dispositivos electrónicos. El autómata celular de puntos cuánticos (QCA) es un dispositivo potencial que se puede utilizar para implementar circuitos digitales. se utilizan para construir circuitos lógicos más complejos. En la arquitectura QCA se presentan varios diseños de circuitos secuenciales, como latch D cerrado, latch RS, contador de 2 bits y contador de 4 bits con registro de desplazamiento de 4 bits. Estos diseños se capturan y simulan utilizando un software de diseño llamado QCADesigner. (Lee Ai Lim, Ghazali, 2012, p.1) [5].
 
+<br>
 
 Rupali Singh y Manoj Kumar Pandey de la SRM University en la India realizaron un estudio enfocado principalmente en el bajo consumo de energía como problema vital para los circuitos digitales en la era tecnológica actual. Su trabajo emplea el concepto de la lógica reversible la cual juega un papel importante en el diseño de circuitos digitales de baja potencia. Se han realizado muchas investigaciones sobre circuitos secuenciales reversibles. En este artículo, el autor presenta el diseño de contadores digitales asíncronos y síncronos utilizando una nueva puerta reversible. Este diseño tiene la intención de optimizar el contador en términos de número de puertas reversibles, retrasos y salidas de basura y, por lo tanto, la complejidad del circuito se reduce, este diseño optimizado fortalecerá significativamente el rendimiento de los contadores secuenciales en relación con el tamaño y la utilización de energía.(Singh, R. y Pandey, MK, 2016, p.1) [6].
 
+<br>
 
 En 2020, K. Gavaskar, D. Malathi, R. Dhivya, R. Dimple Dayana e I.Dharun diseñaron un contador simultáneo de 4 bits de bajo consumo utilizando circuitos de conmutación digital para aplicaciones de conteo de bajo rango, para minimizar el consumo de energía, el área del chip y mejorar la vida útil de la batería y el rendimiento del sistema, se ha diseñado el circuito VLSI de baja potencia. El diseño de escala o contador se utiliza como elemento clave para aumentar o disminuir los valores de un operador en función de su estado anterior. Durante el proceso de conteo se puede medir la frecuencia y el tiempo.  La técnica SVL suprime la potencia debido a la corriente de fuga y también utiliza menos transistores, por lo que la complejidad del sistema también se reduce. La metodología propuesta revela caminos prometedores para artículos electrónicos modernos de baja potencia. (Gavaskar, K., Malathi, D., 2020, p.1) [7].
 
+<br>
 
 En 2018, Paul, B., Paul, C., Varghese, A., P, S., Shajoo, S. y Kurian, N., diseñaron un alimentador para ancianos realizando la simulación del circuito de motor en AUTODESK TINKERCAD, el diseño del circuito consiste en un brazo motorizado para recoger alimentos. El mecanismo tiene motores fijos en el extremo del brazo para obtener un movimiento vertical y giratorio para recoger y alimentar los alimentos. Un servomotor accionado por un botón impulsará la acción de extracción. El funcionamiento del Circuito y del Programa ha sido simulado en AUTODESK TINKERCAD. (Paul, B., Paul, C., Varghese, A., 2018, p.1) [8].
 
+<br>
 
 Para el presente trabajo de investigación, se utilizó el entorno de Simulación AUTODESK TINKERCAD dirigido al diseño de un Circuito de prueba para un contador de 4 bits con un display para visualizar la salida empleando los integrados 7493 y 4511 (Paul, B., Paul, C., Varghese, A., 2018, p.1), utilizando el concepto fundamental de circuitos secuenciales para un contador de 4 bits (Gavaskar, K., Malathi, D., 2020, p.1). El sistema tiene la capacidad realizar un conteo y proyectar un número decimal a la salida de un display de 7 segmentos (Lee Ai Lim, Ghazali, 2012, p.1).
 
@@ -61,6 +65,8 @@ Para el presente trabajo de investigación, se utilizó el entorno de Simulació
 <br>
 
 **4. MARCO TEÓRICO**
+
+<br>
 
 **TINKERCAD**
 
