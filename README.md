@@ -278,7 +278,7 @@ H= High- Alto – 1 lógico
 
 En la siguiente imagen se puede apreciar los 3 pulsos negativos que ha enviado el IC555 hasta el momento, por lo tanto la salida Q0=1, Q1=1, Q2=0 y Q3=0 este es el código en BCD del número 3 es decir “0011”.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img30.png)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img30.png) ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img32.jpg)
 
 **Decodificador BCD a 7 segmentos**
 
@@ -286,7 +286,7 @@ El 4511 es un decodificador de BCD a 7 segmentos. Recibe como entradas los 4 bit
 
 Tabla de verdad:
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img32.jpg)
+
 
 El esquema de conexión que se utilizó es el siguiente:
 
@@ -296,11 +296,10 @@ El esquema de conexión que se utilizó es el siguiente:
 
 Finalmente se puede observar en el número en el display de siete segmentos con sus resistencias de protección de cada diodo.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img37.png)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img37.png) ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img38.jpeg)
 
 Para mejor comprensión se describe el envío del CI7493 un código en BCD del número 3 que sería "0011", para verificar observar en la tabla de verdad del CI4511,el código 0011 en las entradas, estaría en estado ALTO, es decir, un 1 logico, los segmentos A, B, C, D ,G. y en estado BAJO “0 logico” los segmentos E y F.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img38.jpeg)
 
 Nota:Los led se utilizan para saber si el circuito integrado 555 está funcionando correctamente y solo se activan con los pulsos en estado alto.
 
