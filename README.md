@@ -390,7 +390,7 @@ Implementación en físico del circuito contador
 
 En conclusión:
 
-•	El contador digital a permitido vizualizar una aplicación importante en la vida cotidiana, entendiendo que todas las entradas de reloj de este circuto están conectadas a un mismo punto,logrando asi que la señal de reloj sea la misma para todos los FF del contador dando una ventaja a este circuito ya que el tiempo de propagación se reduce al mínimo porque el conteo solo debe propagarse por una o dos compuertas y un FF es decir cambian al mismo tiempo y no dependen de otro FF pra operar.
+•	El contador digital a permitido vizualizar una aplicación importante en la vida cotidiana, entendiendo que todas las entradas de reloj de este circuto están conectadas a un mismo punto,logrando asi que la señal de reloj sea la misma para todos los FF del contador dando una ventaja a este circuito ya que el tiempo de propagación se reduce al mínimo porque el conteo solo debe propagarse por una o dos compuertas y un FF es decir cambian al mismo tiempo y no dependen de otro FF para operar.
 
 •
 
@@ -464,7 +464,7 @@ https://www.tinkercad.com/things/aOj9GS8d6qr-brilliant-crift-gaaris/editel?share
 
 <br>
 
-img
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2041.jpg)
 
 <br>
 
@@ -472,7 +472,7 @@ img
 
 <br>
 
-img
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2044.jpg)
 
 <br>
 
@@ -480,7 +480,7 @@ img
 
 <br>
 
-img
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2042.jpg)
 
 <br>
 
@@ -490,11 +490,11 @@ Mayor resistencia en el potenciómetro .......  Mayor tiempo de espera
 
 <br>
 
-img
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2043.jpg)
 
 <br>
 
-img2
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2045.jpg)
 
 <br>
 
@@ -502,7 +502,7 @@ img2
 
 <br>
 
-img
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2046.jpg)
 
 <br>
 
