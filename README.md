@@ -197,8 +197,17 @@ Explicación:
 
 **Diagrama de bloques**
 
-Explicación:
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.ng)
+Explicación:Se representa en este diagrama de una manera  sencilla el proceso que lleva un contador de 4 bits en el que  cada bloque representa una etapa en este caso:
+
+La primera etapa está representada por el generador de pulsos es decir por el circutio integrado 555 que que se utiliza en la generación de temporizadores, pulsos y oscilaciones mediante una onda cuadrada que se repite de una manera continua 
+
+La segunda etapa representá al contador que viene dado por el circuito integrado 7493 que contiene en su interior cuatro flip-flops JK que permiten utilizarlo como un contador ascendente de cuatro bits, es decir, puede realizar un conteo binario desde cero hasta quince.
+
+La tercera etapa representa un decodificador BCD a 7 segmentos que viene dado por el circuito integrado 4511 donde se puede representar cifras del 0 al 9.Hay que tomar en cuenta que es un decodificador bcd de 4 bits pero para display cátodo común, que utiliza tecnología cmos donde se recibe en los pines de entrada a ABCD los datos en código binario y los decodifica a código decimal, siendo posible su exhibición en los display de 7 segmentos.
+
+La cuerta etapa simplemente está representada por un display de 7 segmentos que proyectará un número del 0 al 9.
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img39.png)
 
 **6. LISTA DE COMPONENTES**
 
