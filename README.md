@@ -248,7 +248,7 @@ Contenido......
 
 <br>
 
-**8. EXPLICACIÓN CÓDIGO FUENTE**
+**8. EXPLICACIÓN DEL CIRCUITO**
 
 <br>
 
@@ -297,13 +297,10 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 **10. APORTACIONES**
 
-<br>
+Implementación en físico del circuito contador
 
-contenido...
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img10.gif)
 
-<br>
-
-<br>
 
 **11. CONCLUSIONES**
 
