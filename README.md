@@ -20,12 +20,6 @@
 
 <br>
 
-Contenido......
-
-
-
-<br>
-
 **Objetivo general**
 
 <br>
@@ -39,6 +33,8 @@ Contenido......
 <br>
 
 **Objetivos específicos**
+
+<br>
 
 •	
 
