@@ -209,7 +209,9 @@ contenido...
 En conclusión:
 
 •	
-•	
+
+•
+
 •	
 
 <br>
@@ -221,9 +223,13 @@ En conclusión:
 <br>
 
 •	
-•	
-•	
-•	
+
+•
+
+•
+
+•
+
 •
 
 <br>
