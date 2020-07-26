@@ -34,7 +34,7 @@ Implementar en Thinkercad un circuito de prueba para un contador de 4 bits.
 
 <br>
 
-En 2019, Thilanka Munasinghe, Evan W. Patton y Oshani  Seneviratne del Instituto Politécnico Rensselaer, Departamento de Tecnologías de la Información y Ciencia Cibernética en Estados Unidos, desarrollaron aplicaciones loT usando MIT App Inventor para recopilar y analizar datos de sensores de bajo costo, algoritmos de aprendizaje que han permitido la toma de decisiones basadas en sistemas a gran escala. La plataforma de desarrollo de MIT App Inventor permite crear aplicaciones utilizando varios sensores y plataformas de IoT como Raspberry Pi 2 y Android Things fáciles de programar con un enfoque en la recopilación de datos de sensores conectados en un solo ambiente (Munasinghe, 2019, p.1) [1].
+En 2012, Lee Ai Lim, Azrul Ghazali, Sarah Chan Tji Yan y Chau Chien Fat del Centro de Micro y Nano Ingeniería, Facultad de Ingeniería, Universidad Tenaga Nasional Kajang, Selangor, Malasia realizaron un estudio para sustituir los transistores CMOS. Por lo tanto, se debe descubrir un dispositivo alternativo para mejorar continuamente el desarrollo de dispositivos electrónicos. El autómata celular de puntos cuánticos (QCA) es un dispositivo potencial que se puede utilizar para implementar circuitos digitales. se utilizan para construir circuitos lógicos más complejos. En la arquitectura QCA se presentan varios diseños de circuitos secuenciales, como latch D cerrado, latch RS, flip-flop JK, contador de 2 bits y contador de 4 bits con registro de desplazamiento de 4 bits. . Estos diseños se capturan y simulan utilizando un software de diseño llamado QCADesigner. (Lee Ai Lim, Ghazali, 2012, p.1) [1].
 
 Ruanqianqian Huang y Franklyn Turbak del Wellesley College, Department of Computer Science en 2019 implementaron un diseño para la conversión bidireccional entre bloques y texto para App Inventor mediante fragmentos de código visual que evitan errores semánticos sintácticos y estáticos y reducen la carga cognitiva para este fin diseñaron un sistema de modo dual para MIT App Inventor que admite representaciones textuales para bloques, espacios de trabajo, pantallas y proyectos completos que permiten la conversión bidireccional entre bloques isomórficos y representaciones de texto, permitiendo que individuos de varios niveles de experiencia en programación se relacionen con la interfaz (R. Huang,F. Turbak,2019)[2].
 
@@ -401,6 +401,8 @@ contenido....
 [3]Gonzales, R. (2019, 7 abril). Contador Binario. Electrónica Digital. https://personales.unican.es/manzanom/Planantiguo/EDigitalI/CONTG5.pdf
 
 [4]Fuente, F. (2017, 24 enero). Decodificador bcd a 7 segmentos. Wilaeba Electronica. https://wilaebaelectronica.blogspot.com/2017/01/decodificador-bcd-a-7-segmentos.html
+
+[5] Lee Ai Lim, Ghazali, A., Yan, SCT y Chau Chien Fat. (2012) Diseño de circuito secuencial utilizando autómatas celulares de punto cuántico (QCA). 2012 Conferencia Internacional IEEE sobre Circuitos y Sistemas (ICCAS). doi: 10.1109 / iccircuitsandsystems.2012.6408320 
 
 **15. ANEXOS**
 
