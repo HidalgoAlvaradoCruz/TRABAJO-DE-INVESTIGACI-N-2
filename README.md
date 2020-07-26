@@ -89,6 +89,7 @@ Para realizar un contador ascendente de 0 a 15 utilizando el circuito integrado 
 Utilizando una fuente de voltaje de 5V, se conecta el pin Vcc a la parte positiva y el pin GND a la parte negativa de ésta. Es necesario no dejar sin conexión los pines R0(1) y R0(2) para que la cuenta no se esté reiniciando constantemente, por lo que dichas entradas van conectadas también a la parte negativa de la fuente.La entrada A necesita una señal de reloj que genere los cambios de valor en la cuenta. Esta señal puede ser generada con un oscilador astable, como un circuito 555, o con una señal de salida que oscile, generada en un microcontrolador. Los cambios de la cuenta se generan durante los flancos de bajada de la señal. A cada una de las salidas, se conecta una resistencia de 330 Ω y un diodo led para visualizar el conteo.
 
 **Circuito integrado 4511**
+
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img5.jpg)
 
 El CD4511 es un decodificador bcd para display de 7 segmentos.
