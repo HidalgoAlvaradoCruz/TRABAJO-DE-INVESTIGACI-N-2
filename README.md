@@ -146,7 +146,8 @@ Estos pines y su funcionamiento son:
 •	Lath Enable LE(Pin 5): congela el último dígito exhibido en el display 7 segmentos después de recibir un 1 lógico. Para obtener un funcionamiento normal del CD4511 esta entrada precisa estar en 0.
 
 **TEMPORIZADOR 555** 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img7.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img10.gif)
 
 El temporizador 555 es un circuito integrado (chip) que se utiliza en la generación de temporizadores, pulsos y oscilaciones. El flip flop 555 puede ser utilizado para proporcionar retardos de tiempo, como un oscilador y como un circuito integrado . Sus derivados seleccionados hasta cuatro circuitos de sincronización en un solo paquete.
 
