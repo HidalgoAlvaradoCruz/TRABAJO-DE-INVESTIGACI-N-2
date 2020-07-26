@@ -359,7 +359,7 @@ Implementación en físico del circuito contador
 
 En conclusión:
 
-•	
+•	El contador digital a permitido vizualizar una aplicación importante en la vida cotidiana, entendiendo que todas las entradas de reloj de este circuto están conectadas a un mismo punto,logrando asi que la señal de reloj sea la misma para todos los FF del contador dando una ventaja a este circuito ya que el tiempo de propagación se reduce al mínimo porque el conteo solo debe propagarse por una o dos compuertas y un FF es decir cambian al mismo tiempo y no dependen de otro FF pra operar.
 
 •
 
@@ -371,21 +371,16 @@ En conclusión:
 
 **12. RECOMENDACIONES**
 
-<br>
 
-•	
+•	Al momento de encender el circuto verificar que se este alimentando correctamente es decir revisar la polarización ya que si se invierte la polaridad se pueden dañar los circutios integrados.
 
-•
+• Se puede verificar con los leds si está funcionado correctamente el circuito ya que si un led no encendiera daría una señal que alguna conexión es incorrecta especialmente la del integrado 555.
 
-•
-
-•
+•Verificar el ohmiaje de las resistencias que pertenecen al display ya que si son muy altas los diodos no  llegan a encenderse.
 
 •
 
-<br>
 
-<br>
 
 **13. CRONOGRAMA**
 
