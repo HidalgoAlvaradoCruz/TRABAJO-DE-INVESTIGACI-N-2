@@ -185,6 +185,7 @@ Tener un computador con todas las actualizaciones necesarias, como también nues
 
 •	Microsoft Internet Explorer 7 o superior
 
+<br>
 
 El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le da el atributo de público y se comparte el enlace que se genera, dicho enlace será la única forma en la que se pueda acceder y editar el diseño del circuito.
 
