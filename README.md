@@ -216,6 +216,7 @@ Para realizar la conexión del circuito integrado 555, realizamos un corto entre
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.png)
 
+<br>
 
 **Diagrama de bloques**
 
@@ -230,6 +231,10 @@ La tercera etapa representa un decodificador BCD a 7 segmentos que viene dado po
 La cuerta etapa simplemente está representada por un display de 7 segmentos que proyectará un número del 0 al 9.
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img39.png)
+
+<br>
+
+<br>
 
 **6. LISTA DE COMPONENTES**
 
@@ -265,6 +270,11 @@ Contenido......
 <br>
 
 **8. EXPLICACIÓN DEL CIRCUITO**
+
+<br>
+
+<br>
+
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img40.jpeg)
 
 El circuito se a dividido en cuatro etapas:
@@ -394,9 +404,9 @@ En conclusión:
 
 •	El contador digital a permitido vizualizar una aplicación importante en la vida cotidiana, entendiendo que todas las entradas de reloj de este circuto están conectadas a un mismo punto,logrando asi que la señal de reloj sea la misma para todos los FF del contador dando una ventaja a este circuito ya que el tiempo de propagación se reduce al mínimo porque el conteo solo debe propagarse por una o dos compuertas y un FF es decir cambian al mismo tiempo y no dependen de otro FF para operar.
 
-•Al momento de desarrollar el análisis del circuito a diseñar, se evidencio un problema, este era compatibilidad del circuito integrado con el bit de ingreso, ya que este necesitaba de un generador de pulsos. Para lo cual se implementó el circuito integrado 555 en su configuración básica, la cual tiene definida su frecuencia a partir de la siguiente ecuación: F= (1.44 / (R1 + 2 * R2) * C), en el circuito se implementó un potenciómetro de 500k Ohms que funciona como R2 para poder variar la frecuencia de ingreso al circuito integrado 4793 una manera más óptima, teniendo como resultado que al aumentar el valor del potenciómetro la frecuencia será menor, mostrándonos así el intervalo entre número y número en mayor tiempo.
+•Al momento de desarrollar el análisis del circuito a diseñar, se evidencio un problema, este era  la compatibilidad del circuito integrado con el bit de ingreso, ya que este necesitaba de un generador de pulsos. Para lo cual se implementó el circuito integrado 555 en su configuración básica, la cual tiene definida su frecuencia a partir de la siguiente ecuación: F= (1.44 / (R1 + 2 * R2) * C), en el circuito se implementó un potenciómetro de 500k Ohms que funciona como R2 para poder variar la frecuencia de ingreso al circuito integrado 4793 una manera más óptima, teniendo como resultado que al aumentar el valor del potenciómetro la frecuencia será menor, mostrándonos así el intervalo entre número y número en mayor tiempo.
 
-•	
+•	En la etapa final del circuito al momento de trabajar con las salidas del integrado 74HC93, dichas salidas representan un número binario de 4 bits que al momento de ser decodificado por el CD4511 si no se respeta el orden de dígitos del diseño en este caso del bit menos significativo al más significativo, al proyectar la salida en el display el número decimal que aparezca no será el correcto, esto se debe principalmente a que las entradas del decodificador CD4511 son las salidas del contador 74HC93, otro aspecto importante a considerar es la configuración del display para el presente trabajo se utilizó la de Cátodo Común por ende si las terminales del display no se conectaban a tierra o GND la proyección no era posible.
 
 <br>
 
@@ -410,9 +420,9 @@ En conclusión:
 
 • Se puede verificar con los leds si está funcionado correctamente el circuito ya que si un led no encendiera daría una señal que alguna conexión es incorrecta especialmente la del integrado 555.
 
-•Verificar el ohmiaje de las resistencias que pertenecen al display ya que si son muy altas los diodos no  llegan a encenderse.
+• Verificar el ohmiaje de las resistencias que pertenecen al display ya que si son muy altas los diodos no  llegan a encenderse.
 
-•
+• Es recomendable colocar el potenciómetro en un ohmiaje intermedio puesto que si el valor de la resistencia es excesiva el tiempo de transición de un número a otro será demasiado largo, incluso puede causar conflictos en el simulador.
 
 
 <br>
@@ -420,7 +430,14 @@ En conclusión:
 <br>
 
 **13. CRONOGRAMA**
+
+<br>
+
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img43.jpeg)
+
+<br>
+
+<br>
 
 **14. BIBLIOGRAFÍA**
 
