@@ -263,8 +263,7 @@ Entonces el número que aparecerá en el display es la cantidad de estados bajos
 
 El esquema de conexión que se utilizó es el siguiente:
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img3.gif)
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img31.jpeg)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img3.gif)![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img31.jpeg)
 
 Tabla de verdad
 
@@ -278,7 +277,7 @@ H= High- Alto – 1 lógico
 
 En la siguiente imagen se puede apreciar los 3 pulsos negativos que ha enviado el IC555 hasta el momento, por lo tanto la salida Q0=1, Q1=1, Q2=0 y Q3=0 este es el código en BCD del número 3 es decir “0011”.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img30.png) ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img32.jpg)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img30.png) 
 
 **Decodificador BCD a 7 segmentos**
 
@@ -286,7 +285,7 @@ El 4511 es un decodificador de BCD a 7 segmentos. Recibe como entradas los 4 bit
 
 Tabla de verdad:
 
-
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img32.jpg)
 
 El esquema de conexión que se utilizó es el siguiente:
 
