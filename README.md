@@ -14,6 +14,10 @@ Se desconoce el funcionamiento, diseño y conexión de un circuito contador de 4
 
 •	¿Cómo funcionan los integrados 7493 y 4511?
 
+<br>
+
+<br>
+
 **2. OBJETIVOS**
 
 
