@@ -441,7 +441,7 @@ contenido....
 
 [6] Singh, R. y Pandey, MK (2016). Diseño y optimización de contadores secuenciales utilizando una nueva puerta reversible. 2016 Conferencia Internacional de Computación, Comunicación y Automatización (ICCCA). doi: 10.1109 / ccaa.2016.7813936 
 
-[7] Gavaskar, K., Malathi, D., Dhivya, R., Dayana, RD y Dharun, I. (2020). Diseño de bajo consumo de contador simultáneo de 4 bits utilizando circuitos de conmutación digital para aplicaciones de conteo de bajo rango. 2020 Quinta Conferencia Internacional sobre Dispositivos, Circuitos y Sistemas (ICDCS). doi: 10.1109 / icdcs48716.2020.243607 
+[7] Gavaskar, K., Malathi, D., Dhivya, R., Dayana, RD y Dharun, I. (2020). Diseño de bajo consumo de contador simultáneo de 4 bits utilizando circuitos de conmutación digital para aplicaciones de conteo de bajo rango. 2020 Quinta Conferencia Internacional sobre Dispositivos, Circuitos y Sistemas (ICDCS). doi: 10.1109 / icdcs48716.2020.243607   
 
 [8] Paul, B., Paul, C., Varghese, A., P, S., Shajoo, S. y Kurian, N. (2018). Diseño de un alimentador de energía para ancianos y simulación de circuito de motor desarrollado con AUTODESK TINKERCAD. Conferencia internacional de 2018 sobre circuitos y sistemas en tecnología digital empresarial (ICCSDET). doi: 10.1109 / iccsdet.2018.8821057 
 
@@ -469,6 +469,11 @@ contenido......
 <br>
 
 **15.2 HOJAS TÉCNICAS**
+
+<br>
+
+<br>
+
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img18.jpeg)
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img19.jpeg)
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img20.jpeg)
