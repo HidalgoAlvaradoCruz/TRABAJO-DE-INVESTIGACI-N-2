@@ -6,45 +6,29 @@
 
 **1. PLANTEAMIENTO DEL PROBLEMA**
 
-<br>
+Se desconoce el funcionamiento, diseño y conexión de un circuito contador de 4 bits utilizando los  integrados 7493 y 4511, que se visualice en un display implementado en Thinkercad, para lo cual se formularon las siguientes preguntas: 
 
-•	
+•	¿Cómo se diseña un circuito contador de 4 bits?
 
-•	
+•	¿Cómo funciona un display?
 
-•	
-
-<br>
+•	¿Cómo funcionan los integrados 7493 y 4511?
 
 **2. OBJETIVOS**
 
-<br>
 
 **Objetivo general**
 
-<br>
-
-Contenido......
-
-
-
-<br>
-
-<br>
+Implementar en Thinkercad un circuito de prueba para un contador de 4 bits.
 
 **Objetivos específicos**
 
-<br>
+•	Comprender la estructura básica de funcionamiento del software de simulación Thinkercad.
 
-•	
+•	Entender el funcionamiento de un circuito contador.
 
-•	
+•	Identificar los principales parámetros de funcionamiento del integrado 4511 y 7493. 
 
-•	
-
-<br>
-
-<br>
 
 **3. ESTADO DEL ARTE**
 
@@ -64,22 +48,29 @@ Para el trabajo de investigación presente, se utilizó el entorno de desarrollo
 
 **4. MARCO TEÓRICO**
 
-<br>
+**TINKERCAD**
 
-Contenido......
+ThinkerCad es un programa o software gratuito y online creado para el desarrollo y modelado de objetos en 3D de una manera sencilla, ofrece también una posibilidad realmente interesante de montar, programar y simular circuitos incluso con Arduino al disponer de una interfaz de trabajo simple y atractiva. TinkerCAD ha sido creado por la empresa AutoDesk. 
+Como ventajas se podría destacar que es sencillo de usar, tiene un aspecto atractivo y con unas pocas horas de uso se puede adquirir mucha destreza. Por otro lado, como desventaja se puede señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo posee una versión online. 
+Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción “Circuits” para empezar a crear circuitos .
+
+**CONTADORES**
+
+Los circuitos contadores son circuitos secuenciales compuestos por biestables que tienen una entrada de cuenta de impulsos (CLK) y un número de salidas que representan en cada momento, el número de impulsos que le llegan a la entrada de reloj en un código binario. Los circuitos divisores de frecuencia son circuitos que poseen una entrada por la que llega un tren de impulsos a una determinada frecuencia y disponen de una salida por la que se obtiene una frecuencia de valor n veces menor. Estos circuitos son muy utilizados en las aplicaciones que conllevan la cuenta de eventos o medición de tiempos, como es el caso de los relojes digitales, contadores de impulsos, frecuencímetros, controladores digitales y autómatas finitos.
+
+**Características**
+
+•	Un contador es un circuito en el que sus salidas siguen una secuencia fija que cuando acaba vuelve a empezar, o circuitos que reciben sus datos en forma serial ordenados en distintos intervalos de tiempo. 
+
+•	Los pulsos de entrada pueden ser pulsos de reloj u originarse en una fuente externa y pueden ocurrir a intervalos de tiempo fijos o aleatorios. 
+
+•	El número de salidas limita el máximo número que se puede contar.
+
+**Circuito integrado 7493**
+
+El circuito integrado 7493 contiene en su interior cuatro flip-flops JK, tal como se observa en la figura 1, que permiten utilizarlo como un contador ascendente de cuatro bits, es decir, puede realizar un conteo binario desde cero hasta quince.
 
 
-
-
-
-
-
-
-
-
-<br>
-
-<br>
 
 **5. DIAGRAMAS**
 
