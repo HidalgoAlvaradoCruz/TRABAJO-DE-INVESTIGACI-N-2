@@ -1,4 +1,4 @@
-## TUTORIAL PARA SIMULAR PROGRAMAS EN UN EQUIVALENTE DE ARDUINO UNO UTILIZANDO MULTISIM
+##  Implementar en Thinkercad un circuito de prueba para un contador de 4 bits y que su salida se visualice en un display. Emplee los integrados7493 y 4511
 
 <br>
 
