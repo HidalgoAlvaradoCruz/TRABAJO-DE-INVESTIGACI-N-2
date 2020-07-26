@@ -85,12 +85,6 @@ Contenido......
 
 <br>
 
-Contenido......
-
-
-
-<br>
-
 **Diagramas Esquemático**
 
 <br>
