@@ -351,40 +351,19 @@ contenido....
 
 **14. BIBLIOGRAFÍA**
 
-<br>
+[1]Marin, J. (20-12-20). Contados Ascendente. BlogSpot. http://jmaarin.blogspot.com/2017/12/contador-ascendente-con-ci-7493.html
 
-contenido....
+[2]Monroy, M. (2018, 26 diciembre). Temporizador. Medium.com. https://medium.com/@m.monroyc22/temporizador-555-243abcb933a5
 
+[3]Gonzales, R. (2019, 7 abril). Contador Binario. Electrónica Digital. https://personales.unican.es/manzanom/Planantiguo/EDigitalI/CONTG5.pdf
 
-
-
-<br>
-
-<br>
+[4]Fuente, F. (2017, 24 enero). Decodificador bcd a 7 segmentos. Wilaeba Electronica. https://wilaebaelectronica.blogspot.com/2017/01/decodificador-bcd-a-7-segmentos.html
 
 **15. ANEXOS**
 
-<br>
-
-contenido....
-
-
-
-
-
-<br>
-
-<br>
 
 **15.1 MANUAL DE USUARIO**
 
-<br>
-
-contenido....
-
-<br>
-
-<br>
 
 **15.2 HOJAS TÉCNICAS**
 
