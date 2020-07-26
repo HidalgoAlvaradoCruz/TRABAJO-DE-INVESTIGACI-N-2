@@ -506,6 +506,10 @@ Mayor resistencia en el potenciómetro .......  Mayor tiempo de espera
 
 <br>
 
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img%2047.jpg)
+
+<br>
+
 <br>
 
 **15.2 HOJAS TÉCNICAS**
