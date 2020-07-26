@@ -4,7 +4,7 @@
 
 <br>
 
-**1. PLANTEAMIENTO DEL PROBLEMA
+**1. PLANTEAMIENTO DEL PROBLEMA**
 
 
 •	
@@ -15,11 +15,11 @@
 
 <br>
 
-**2. OBJETIVOS
+**2. OBJETIVOS**
 
 <br>
 
-**Objetivo general
+**Objetivo general**
 
 
 
@@ -28,7 +28,7 @@
 
 <br>
 
-**Objetivos específicos
+**Objetivos específicos**
 
 •	
 
@@ -40,7 +40,7 @@
 
 <br>
 
-**3. ESTADO DEL ARTE
+**3. ESTADO DEL ARTE**
 
 En 2019, Thilanka Munasinghe, Evan W. Patton y Oshani  Seneviratne del Instituto Politécnico Rensselaer, Departamento de Tecnologías de la Información y Ciencia Cibernética en Estados Unidos, desarrollaron aplicaciones loT usando MIT App Inventor para recopilar y analizar datos de sensores de bajo costo, algoritmos de aprendizaje que han permitido la toma de decisiones basadas en sistemas a gran escala. La plataforma de desarrollo de MIT App Inventor permite crear aplicaciones utilizando varios sensores y plataformas de IoT como Raspberry Pi 2 y Android Things fáciles de programar con un enfoque en la recopilación de datos de sensores conectados en un solo ambiente (Munasinghe, 2019, p.1) [1].
 
@@ -54,7 +54,7 @@ Para el trabajo de investigación presente, se utilizó el entorno de desarrollo
 
 <br>
 
-**4. MARCO TEÓRICO
+**4. MARCO TEÓRICO**
 
 
 
@@ -65,30 +65,30 @@ Para el trabajo de investigación presente, se utilizó el entorno de desarrollo
 
 <br>
 
-**5. DIAGRAMAS
+**5. DIAGRAMAS**
 
 <br>
 
-**Diagramas Esquemático
-
-
-
-<br>
-
-**Diagramas Eléctrico
+**Diagramas Esquemático**
 
 
 
 <br>
 
-
-**Diagrama de bloques
+**Diagramas Eléctrico**
 
 
 
 <br>
 
-**6. LISTA DE COMPONENTES 
+
+**Diagrama de bloques**
+
+
+
+<br>
+
+**6. LISTA DE COMPONENTES**
 
 <br>
 
@@ -110,7 +110,7 @@ Link:
 
 <br>
 
-**7. MAPA DE VARIABLES
+**7. MAPA DE VARIABLES**
 
 
 
@@ -120,7 +120,7 @@ Link:
 
 <br>
 
-**8. EXPLICACIÓN CÓDIGO FUENTE
+**8. EXPLICACIÓN CÓDIGO FUENTE**
 
 
 
@@ -128,7 +128,7 @@ Link:
 
 <br>
 
-**9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+**9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
 Tener una cuenta de Google o una cuenta institucional en este caso la cuenta de Mi ESPE, debido a que la verificación y creación de la cuenta en Tinkercad será a partir de esta. 
 
@@ -160,7 +160,7 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 <br>
 
-**10. APORTACIONES
+**10. APORTACIONES**
 
 
 
@@ -169,7 +169,7 @@ El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le d
 
 <br>
 
-**11. CONCLUSIONES
+**11. CONCLUSIONES**
 
 <br>
 
@@ -183,7 +183,7 @@ En conclusión:
 
 <br>
 
-**12. RECOMENDACIONES
+**12. RECOMENDACIONES**
 
 <br>
 
@@ -197,7 +197,7 @@ En conclusión:
 
 <br>
 
-**13. CRONOGRAMA
+**13. CRONOGRAMA**
 
 
 
@@ -205,7 +205,7 @@ En conclusión:
 
 <br>
 
-**14. BIBLIOGRAFÍA
+**14. BIBLIOGRAFÍA**
 
 
 
@@ -215,20 +215,20 @@ En conclusión:
 
 <br>
 
-**15. ANEXOS
+**15. ANEXOS**
 
 
 <br>
 
 <br>
 
-**15.1 MANUAL DE USUARIO
+**15.1 MANUAL DE USUARIO**
 
 <br>
 
 <br>
 
-**15.2 HOJAS TÉCNICAS
+**15.2 HOJAS TÉCNICAS**
 
 
 
