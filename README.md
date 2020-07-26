@@ -243,6 +243,7 @@ Contenido......
 <br>
 
 **8. EXPLICACIÓN DEL CIRCUITO**
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img40.jpeg)
 
 El circuito se a dividido en cuatro etapas:
 
@@ -341,11 +342,6 @@ Tener un computador con todas las actualizaciones necesarias, como también nues
 <br>
 
 El circuito creado en Tinkercad puede funcionar en cualquier servidor si se le da el atributo de público y se comparte el enlace que se genera, dicho enlace será la única forma en la que se pueda acceder y editar el diseño del circuito.
-
-
-<br>
-
-<br>
 
 **10. APORTACIONES**
 
