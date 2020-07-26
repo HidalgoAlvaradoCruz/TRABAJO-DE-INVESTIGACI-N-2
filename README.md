@@ -29,6 +29,10 @@ Implementar en Thinkercad un circuito de prueba para un contador de 4 bits.
 
 •	Identificar los principales parámetros de funcionamiento del integrado 4511 y 7493. 
 
+<br>
+
+<br>
+
 
 **3. ESTADO DEL ARTE**
 
