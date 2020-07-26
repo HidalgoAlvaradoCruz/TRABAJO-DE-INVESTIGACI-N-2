@@ -173,6 +173,7 @@ Los sistemas operativos de los computadores en los cuales funciona Tinkercad son
 
 •	GNU / Linux: Ubuntu 8 +, 5 + Debian
 
+<br>
 
 Tener un computador con todas las actualizaciones necesarias, como también nuestro navegador deberá tener las siguientes especificaciones: 
 
