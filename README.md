@@ -458,11 +458,51 @@ contenido....
 
 <br>
 
+1.	Para ejecutar la simulación del  Circuito de prueba para un contador de 4 bits con un display para visualizar la salida empleando los integrados 7493 y 4511  se debe ingresar al siguiente enlace de Tinkercad:
 
-contenido......
+https://www.tinkercad.com/things/aOj9GS8d6qr-brilliant-crift-gaaris/editel?sharecode=wemCPJPMXkV8Ppd4Z5SbcLKX3DM-h6524Ty2Sa4d2tY 
 
+<br>
 
+img
 
+<br>
+
+2.	Una vez en la ventana principal de Tinkercad se puede observar el diseño del circuito, antes de iniciar la simulación se debe configurar el voltaje de entrada o alimentación del circuito, para ello se debe ingresar un valor de 5 [V], caso contrario si el voltaje es menor el circuito no encenderá o si es mayor se corre el riesgo de quemar los integrados.
+
+<br>
+
+img
+
+<br>
+
+3.	Una vez configurado el voltaje de entrada, para iniciar la simulación se presiona el botón “Iniciar simulación” ubicado en la parte superior derecha.
+
+<br>
+
+img
+
+<br>
+
+4.	El Circuito Contador funciona de manera ASCENDENTE de modo que empieza en “0” y termina en “9” el conteo se proyecta en un display de 7 segmentos, el tiempo que se demora en cambiar de un dígito a otro se lo controla con un POTENCIÓMETRO.
+
+Mayor resistencia en el potenciómetro .......  Mayor tiempo de espera 
+
+<br>
+
+img
+
+<br>
+
+img2
+
+<br>
+
+5.	Finalmente, para detener la simulación presionamos el botón “Detener simulación” y el contador se detiene regresando a su estado inicial en “0” y se apaga el circuito.
+
+<br>
+
+img
 
 <br>
 
