@@ -211,7 +211,9 @@ Explicación:
 
 **Diagramas Eléctrico**
 
-Explicación:
+Explicación:En este diagrama eléctrico observamos cuatro etapas, en la primera el generador de pulsos usando el circuito integrado 555, en la segunda etapa se observa un contador asíncrono a partir del circuito integrado 7493, en la tercera etapa observamos decodificador BCD a 7 segmentos 4511 y en la última etapa se observa el display de 7 segmentos con cátodo común. 
+Para realizar la conexión del circuito integrado 555, realizamos un corto entre el Reset(4)t y el +Vcc(8), de igual manera el Umbral(6) y el disparo(2) conectado este al potenciómetro. Es importante colocar resistencias de protección para las salidas de los leds.   En la segunda etapa el integrado 7493, el puerto de ingreso será el “Reloj 0 (14)” mientras los bits de salida serán; el puerto 12-Salida0, el puerto 9-Salida 1, el puerto 8-Salida 2, el puerto 11-Salida3. Cuenta con un puerto de alimentación (5) y un puerto a tierra (10). Los puertos de restablecer (2-3) deberán estar en corto con las salidas 1 y 3. En la fase tres, el circuito integrado 4511 recibe 4 bits de información (Puerto 6- entrada1, puerto 1 entrada 2, puerto 2 entrada 3, puerto 6 entrada 4), estos bits cuentan con su respectiva resistencia de protección de 200 ohms, para finalmente entregar 7 bits de salida que serán usados en el display de 7 segmentos, estos con su correspondiente resistencia de 200 ohms.   
+
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.png)
 
 
@@ -392,7 +394,7 @@ En conclusión:
 
 •	El contador digital a permitido vizualizar una aplicación importante en la vida cotidiana, entendiendo que todas las entradas de reloj de este circuto están conectadas a un mismo punto,logrando asi que la señal de reloj sea la misma para todos los FF del contador dando una ventaja a este circuito ya que el tiempo de propagación se reduce al mínimo porque el conteo solo debe propagarse por una o dos compuertas y un FF es decir cambian al mismo tiempo y no dependen de otro FF para operar.
 
-•
+•Al momento de desarrollar el análisis del circuito a diseñar, se evidencio un problema, este era compatibilidad del circuito integrado con el bit de ingreso, ya que este necesitaba de un generador de pulsos. Para lo cual se implementó el circuito integrado 555 en su configuración básica, la cual tiene definida su frecuencia a partir de la siguiente ecuación: F= (1.44 / (R1 + 2 * R2) * C), en el circuito se implementó un potenciómetro de 500k Ohms que funciona como R2 para poder variar la frecuencia de ingreso al circuito integrado 4793 una manera más óptima, teniendo como resultado que al aumentar el valor del potenciómetro la frecuencia será menor, mostrándonos así el intervalo entre número y número en mayor tiempo.
 
 •	
 
@@ -418,14 +420,7 @@ En conclusión:
 <br>
 
 **13. CRONOGRAMA**
-
-<br>
-
-contenido....
-
-<br>
-
-<br>
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img43.jpeg)
 
 **14. BIBLIOGRAFÍA**
 
