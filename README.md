@@ -70,11 +70,11 @@ Los circuitos contadores son circuitos secuenciales compuestos por biestables qu
 
 **Circuito integrado 7493**
 
-El circuito integrado 7493 contiene en su interior cuatro flip-flops JK, tal como se observa en la figura 1, que permiten utilizarlo como un contador ascendente de cuatro bits, es decir, puede realizar un conteo binario desde cero hasta quince.
+El circuito integrado 7493 contiene en su interior cuatro flip-flops JK que permiten utilizarlo como un contador ascendente de cuatro bits, es decir, puede realizar un conteo binario desde cero hasta quince.
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img2.png)
 
-Este integrado tiene catorce pines, cuya distribución se indica en la figura 2. Los pines catorce y uno son las entradas de reloj A y B, respectivamente. Las entradas de reinicio están conformadas por los pines dos y tres, cuyos nombres son R0(1) y R0(2), respectivamente. Estos pines son las entradas a una compuerta NAND interna en el circuito integrado y cuya salida se encuentra enlazada a las entradas de reset de los cuatro flip-flops internos. Para que se efectúe un reinicio en la cuenta, R0(1) y R0(2) deben recibir una señal lógica alta. Por el contrario, si uno o ambos pines reciben una señal lógica baja, el conteo seguirá.
+Este integrado tiene catorce pines. Los pines catorce y uno son las entradas de reloj A y B, respectivamente. Las entradas de reinicio están conformadas por los pines dos y tres, cuyos nombres son R0(1) y R0(2), respectivamente. Estos pines son las entradas a una compuerta NAND interna en el circuito integrado y cuya salida se encuentra enlazada a las entradas de reset de los cuatro flip-flops internos. Para que se efectúe un reinicio en la cuenta, R0(1) y R0(2) deben recibir una señal lógica alta. Por el contrario, si uno o ambos pines reciben una señal lógica baja, el conteo seguirá.
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img33.jpg)
 
@@ -84,15 +84,14 @@ Respecto a la alimentación del circuito, al pin 5 se conecta la parte positiva 
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img4.png)
 
-Para realizar un contador ascendente de 0 a 15 utilizando el circuito integrado 7493 deben replicarse las conexiones mostradas en la figura 3. Primordialmente hay que conectar la entrada B a la salida QA, de esta manera todos los flip-flops estarán conectados entre sí, ya que inicialmente sólo se encuentran conectados tres de ellos. 
+Para realizar un contador ascendente de 0 a 15 utilizando el circuito integrado 7493 deben replicarse las conexiones. Primordialmente hay que conectar la entrada B a la salida QA, de esta manera todos los flip-flops estarán conectados entre sí, ya que inicialmente sólo se encuentran conectados tres de ellos. 
 
-Utilizando una fuente de voltaje de 5V, se conecta el pin Vcc a la parte positiva y el pin GND a la parte negativa de ésta. Es necesario no dejar sin conexión los pines R0(1) y R0(2) para que la cuenta no se esté reiniciando constantemente, por lo que dichas entradas van conectadas también a la parte negativa de la fuente.La entrada A necesita una señal de reloj que genere los cambios de valor en la cuenta. Esta señal puede ser generada con un oscilador astable, como un circuito 555, o con una señal de salida que oscile, generada en un microcontrolador. Los cambios de la cuenta se generan durante los flancos de bajada de la señal. A cada una de las salidas, se conecta una resistencia de 330 Ω y un diodo led para visualizar el conteo.
+Utilizando una fuente de voltaje de 5V, se conecta el pin Vcc a la parte positiva y el pin GND a la parte negativa de ésta. Es necesario no dejar sin conexión los pines R0(1) y R0(2) para que la cuenta no se esté reiniciando constantemente, por lo que dichas entradas van conectadas también a la parte negativa de la fuente.La entrada A necesita una señal de reloj que genere los cambios de valor en la cuenta. Esta señal puede ser generada con un oscilador astable, como un circuito 555, o con una señal de salida que oscile, generada en un microcontrolador. Los cambios de la cuenta se generan durante los flancos de bajada de la señal. A cada una de las salidas, se conecta una resistencia de 330 Ω y un diodo led para visualizar el conteo(ejemplo).
 
 **Circuito integrado 4511**
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img5.jpg)
 
-El CD4511 es un decodificador bcd para display de 7 segmentos.
 El display de 7 segmentos es un componente bastante empleado en el mundo de la electrónica, ya que permite que sea muy simple la exhibición de valores numéricos. Pudiendo representar cifras de 0 a 9 
 
 Puede ser aplicado también en ambientes industriales para ejecutar funciones como:
@@ -107,17 +106,19 @@ Puede ser aplicado también en ambientes industriales para ejecutar funciones co
 
 Los display de 7 segmentos son empleados la mayoría de las veces a partir de circuitos digitales como circuitos integrados, microcontroladores y otros procesos que trabajan en sistema binario, cuyo sistema y representación es apenas realizado por dos niveles lógicos 0 y 1 denominados bits. Resultando la parejas cd4511 y display 7 segmentos una herramienta muy útil para estos casos, tambien es comun el duo cd5411 y cd4510.
 
-En el mercado encontramos con diversos codificadores y decodificadores. Cada uno posee características específicas y limitaciones de uso, basta saber a partir de su hoja de datos cuál de ellas es la más adecuada para el proyecto.
+En el mercado se encuentra con diversos codificadores y decodificadores. Cada uno posee características específicas y limitaciones de uso, basta saber a partir de su hoja de datos cuál de ellas es la más adecuada para el proyecto.
 Uno de los decodificadores bcd más utilizado para mostrar números de 0 a 9 en display de 7 segmentos cátodo común es el CD 4511.
 
 El CD4511 es un decodificador bcd de 4 bits para display cátodo común, que utiliza tecnología cmos. Recibe en los Pines de entrada a ABCD los datos en código binario y los decodifica a código decimal, siendo posible su exhibición en los display de 7 segmentos.
 
  Es necesario conocer sus características físicas y limitaciones de uso que están disponibles por sus fabricantes a través de sus respectivas hojas de datos.
  
-Las características más importantes que podemos considerar se encuentran:
+Las características más importantesn son:
 
 •	Tensión de operación: 3V a 18V de corriente continua.
+
 •	Corriente de salida: 10mA.
+
 •	Temperatura de operación: -55ºC a 125ºC.
 
 **Configuración de pines**
@@ -126,7 +127,7 @@ Cada pin de salida corresponde a un segmento del display, basta con hacer las co
 
 Este Circuito integrado es especifico para trabajar con diplay de 7 segmentos de cátodo comuún, en el caso de querer usar el CD 4511 con ánodo común se debe recurrir a un circuito inversor o usar otro circuito integrador decodificador.
 
-Tenemos a disposición 3 Pines del CD4511 que pueden tener gran aplicación en diversos proyectos, brindando funciones como:
+Se tiene a disposición 3 Pines del CD4511 que pueden tener gran aplicación en diversos proyectos, brindando funciones como:
 
 •	Economizar Batería.
 
@@ -136,11 +137,11 @@ Tenemos a disposición 3 Pines del CD4511 que pueden tener gran aplicación en d
 
 Estos pines y su funcionamiento son:
 
-•	Lamp Test LT(Pin 3): Este pin nos sirve para probar todos los segmentos. Debido a que es una entrada inversora, para tener un funcionamiento normalizado esta entrada debe estar en 1. Cuando la entrada toma un valor lógico 0 prende todos los segmentos del display para testear el funcionamiento.
+•	Lamp Test LT(Pin 3): Este pin  sirve para probar todos los segmentos. Debido a que es una entrada inversora, para tener un funcionamiento normalizado esta entrada debe estar en 1. Cuando la entrada toma un valor lógico 0 prende todos los segmentos del display para testear el funcionamiento.
 
-•	Blank Input BI(Pin 4): Apaga todos los segmentos, tenér en cuenta que esto es una entrada inversora, por lo tanto para tener un funcionamiento normal del CI esta entrada precisa estar en 1.
+•	Blank Input BI(Pin 4): Apaga todos los segmentos, tener en cuenta que esto es una entrada inversora, por lo tanto para tener un funcionamiento normal del CI esta entrada precisa estar en 1.
 
-•	Lath Enable LE(Pin 5): congela el último dígito exhibido en el display 7 segmentos después de recibir un 1 lógico. Para obtener un funcionamiento normal del CD4511 esta entrada precisa estar en 0.
+•	Lath Enable LE(Pin 5): Congela el último dígito exhibido en el display 7 segmentos después de recibir un 1 lógico. Para obtener un funcionamiento normal del CD4511 esta entrada precisa estar en 0.
 
 **TEMPORIZADOR 555** 
 
@@ -185,31 +186,19 @@ El temporizador 555 es un circuito integrado (chip) que se utiliza en la generac
 
 **Diagramas Esquemático**
 
-<br>
+Explicación:
 
-
-Contenido......
-
-<br>
 
 **Diagramas Eléctrico**
 
-<br>
+Explicación:
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.png)
 
-
-Contenido......
-
-<br>
 
 **Diagrama de bloques**
 
-<br>
-
-
-Contenido......
-
-
-<br>
+Explicación:
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.ng)
 
 **6. LISTA DE COMPONENTES**
 
@@ -227,11 +216,10 @@ Sistema operativo: Windows 8.0 en adelante.
  
 •	Software de Simulación Thinkercad 
 
-Link: 
+•	Especialmente del circuito:
 
-<br>
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img22.jpeg)
 
-<br>
 
 **7. MAPA DE VARIABLES**
 
@@ -308,7 +296,11 @@ El esquema de conexión que se utilizó es el siguiente:
 
 Finalmente se puede observar en el número en el display de siete segmentos con sus resistencias de protección de cada diodo.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img35.jpeg)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img37.png)
+
+Para mejor comprensión se describe el envío del CI7493 un código en BCD del número 3 que sería "0011", para verificar observar en la tabla de verdad del CI4511,el código 0011 en las entradas, estaría en estado ALTO, es decir, un 1 logico, los segmentos A, B, C, D ,G. y en estado BAJO “0 logico” los segmentos E y F.
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img38.jpeg)
 
 Nota:Los led se utilizan para saber si el circuito integrado 555 está funcionando correctamente y solo se activan con los pulsos en estado alto.
 
