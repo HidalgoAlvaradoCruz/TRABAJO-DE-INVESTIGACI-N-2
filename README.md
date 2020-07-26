@@ -76,7 +76,7 @@ El circuito integrado 7493 contiene en su interior cuatro flip-flops JK, tal com
 
 Este integrado tiene catorce pines, cuya distribución se indica en la figura 2. Los pines catorce y uno son las entradas de reloj A y B, respectivamente. Las entradas de reinicio están conformadas por los pines dos y tres, cuyos nombres son R0(1) y R0(2), respectivamente. Estos pines son las entradas a una compuerta NAND interna en el circuito integrado y cuya salida se encuentra enlazada a las entradas de reset de los cuatro flip-flops internos. Para que se efectúe un reinicio en la cuenta, R0(1) y R0(2) deben recibir una señal lógica alta. Por el contrario, si uno o ambos pines reciben una señal lógica baja, el conteo seguirá.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img3.gif)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img33.jpg)
 
 Los pines once, ocho, nueve y doce son nombrados QD, QC, QB y QA, respectivamente. Estas cuatro salidas se emplean para visualizar el conteo binario de cuatro bits. La salida QD es la que corresponde al bit más significativo del dato, seguido de QC, luego QB y finalmente QA como el bit menos significativo. 
 
@@ -123,9 +123,6 @@ Las características más importantes que podemos considerar se encuentran:
 **Configuración de pines**
 
 Cada pin de salida corresponde a un segmento del display, basta con hacer las conexiones y enviar las informaciones binarias a las entradas, luego CD4511 decodifica el código bcd y escribe la información en cifras decimales en el display.
-
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img6.gif)
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img6.jpg)
 
 Este Circuito integrado es especifico para trabajar con diplay de 7 segmentos de cátodo comuún, en el caso de querer usar el CD 4511 con ánodo común se debe recurrir a un circuito inversor o usar otro circuito integrador decodificador.
 
@@ -250,14 +247,70 @@ Contenido......
 
 **8. EXPLICACIÓN DEL CIRCUITO**
 
-<br>
+El circuito se a dividido en cuatro etapas:
 
-Contenido......
+**Generador de pulsos**
 
+Se utilizó el circutio integrado 555 que genera pulsos en configuración multivibrador astable es decir  mediante una onda cuadrada que se repite de forma continua siendo el estado alto 1 y el estado bajo 0, la amplitud de la onda se puede modificar mediante el potenciómetro.El esquema de conexión que se utilizó es el siguiente:
 
-<br>
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img26.jpg) ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img27.png)
 
-<br>
+La señal de salida tiene un nivel alto por un tiempo TH y en un nivel bajo un tiempo TL. Los tiempos de duración en segundos dependen de los valores de Ra, Rb y C.
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img23.jpg)
+
+La frecuencia con que la señal de salida oscila está dada por la fórmula:
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img24.jpg)
+
+El 555 tiene dos entradas de control adicionales. Una entrada de reposición (RESET) que para inmediatamente la salida y la pone a nivel bajo, y una entrada de tensión de control (Cv) que puede utilizarse para variar la anchura del impulso de salida variando la tensión continua a ella aplicada, y que varía la frecuencia de oscilación.
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img25.jpeg)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img28.jpeg)
+
+**Contador 7493**
+
+Este circuito integrada codifica a BCD del o en BCD(0000) al 9 en BCD (1001) solo cuando se envía pulsos es decir se tomará en cuenta los estados bajos "0" enviados del 555 y los estados altos"1" como una espera y el tiempo que se demore en estado "1" es igual al tiempo que estará mostrando el número en el display.
+Entonces el número que aparecerá en el display es la cantidad de estados bajos que ha contado en ese momento.
+
+El esquema de conexión que se utilizó es el siguiente:
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img3.gif)
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img31.jpeg)
+
+Tabla de verdad
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img29.png)
+
+En donde Count son la cantidad de estados bajos que ha contado provenientes del IC555 y Output son las cuatro salidas del Circuito Integrado 7493.
+
+L= Low – Bajo – 0 lógico 
+
+H= High- Alto – 1 lógico
+
+En la siguiente imagen se puede apreciar los 3 pulsos negativos que ha enviado el IC555 hasta el momento, por lo tanto la salida Q0=1, Q1=1, Q2=0 y Q3=0 este es el código en BCD del número 3 es decir “0011”.
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img30.png)
+
+**Decodificador BCD a 7 segmentos**
+
+El 4511 es un decodificador de BCD a 7 segmentos. Recibe como entradas los 4 bits de salida del contador 7493 que forman un dígito codificado en binario (BCD, Binary Coded  Digit)  y da como salida el  mismo número (dígito)  presentado en  el display de 7 segmentos.
+
+Tabla de verdad:
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img32.jpg)
+
+El esquema de conexión que se utilizó es el siguiente:
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img34.jpeg)![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img9.gif)
+
+**Display 7 segmentos**
+
+Finalmente se puede observar en el número en el display de siete segmentos con sus resistencias de protección de cada diodo.
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img35.jpeg)
+
+Nota:Los led se utilizan para saber si el circuito integrado 555 está funcionando correctamente y solo se activan con los pulsos en estado alto.
 
 **9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
