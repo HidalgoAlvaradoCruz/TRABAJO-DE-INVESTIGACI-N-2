@@ -214,7 +214,6 @@ Para realizar la conexión del circuito integrado 555, realizamos un corto entre
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.png)
 
-<br>
 
 **Diagrama de bloques**
 
