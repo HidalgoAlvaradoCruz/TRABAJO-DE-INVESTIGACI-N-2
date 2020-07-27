@@ -204,14 +204,12 @@ El temporizador 555 es un circuito integrado (chip) que se utiliza en la generac
 
 <br>
 
-**Diagramas Esquemático**
-
-Explicación:
-
-
 **Diagramas Eléctrico**
 
+<br>
+
 Explicación:En este diagrama eléctrico observamos cuatro etapas, en la primera el generador de pulsos usando el circuito integrado 555, en la segunda etapa se observa un contador asíncrono a partir del circuito integrado 7493, en la tercera etapa observamos decodificador BCD a 7 segmentos 4511 y en la última etapa se observa el display de 7 segmentos con cátodo común. 
+
 Para realizar la conexión del circuito integrado 555, realizamos un corto entre el Reset(4)t y el +Vcc(8), de igual manera el Umbral(6) y el disparo(2) conectado este al potenciómetro. Es importante colocar resistencias de protección para las salidas de los leds.   En la segunda etapa el integrado 7493, el puerto de ingreso será el “Reloj 0 (14)” mientras los bits de salida serán; el puerto 12-Salida0, el puerto 9-Salida 1, el puerto 8-Salida 2, el puerto 11-Salida3. Cuenta con un puerto de alimentación (5) y un puerto a tierra (10). Los puertos de restablecer (2-3) deberán estar en corto con las salidas 1 y 3. En la fase tres, el circuito integrado 4511 recibe 4 bits de información (Puerto 6- entrada1, puerto 1 entrada 2, puerto 2 entrada 3, puerto 6 entrada 4), estos bits cuentan con su respectiva resistencia de protección de 200 ohms, para finalmente entregar 7 bits de salida que serán usados en el display de 7 segmentos, estos con su correspondiente resistencia de 200 ohms.   
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img36.png)
