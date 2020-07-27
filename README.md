@@ -256,14 +256,27 @@ Sistema operativo: Windows 8.0 en adelante.
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img22.jpeg)
 
+<br>
+
+<br>
 
 **7. MAPA DE VARIABLES**
 
 <br>
 
-Contenido......
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img48.jpeg)
 
+<br>
 
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img49.jpeg)
+
+<br>
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img50.jpeg)
+
+<br>
+
+![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img51.jpeg)
 
 <br>
 
