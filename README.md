@@ -76,7 +76,7 @@ Para esto se debe crear una cuenta de usuario y acceder seleccionando la opción
 
 ![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-DE-INVESTIGACION-2/blob/master/img/img1.png)
 
-**CONTADORES**
+**CIRCUITOS CONTADORES**
 
 Los circuitos contadores son circuitos secuenciales compuestos por biestables que tienen una entrada de cuenta de impulsos (CLK) y un número de salidas que representan en cada momento, el número de impulsos que le llegan a la entrada de reloj en un código binario. Los circuitos divisores de frecuencia son circuitos que poseen una entrada por la que llega un tren de impulsos a una determinada frecuencia y disponen de una salida por la que se obtiene una frecuencia de valor n veces menor. Estos circuitos son muy utilizados en las aplicaciones que conllevan la cuenta de eventos o medición de tiempos, como es el caso de los relojes digitales, contadores de impulsos, frecuencímetros, controladores digitales y autómatas finitos.
 
